@@ -40,6 +40,13 @@ git reset --hard HEAD
 git reset --soft HEAD~1
 ```
 
+#### Работа с отложенными изменениями
+```
+git stash
+git stash list
+git stash pop stash@{2}
+```
+
 #### Архивировать только изменения между ветками
 ```
 git diff --name-only master |  xargs git archive -o output.zip HEAD --
