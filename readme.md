@@ -79,3 +79,10 @@ git clone --recurse-submodules -j8 git@bitbucket.org:ipol-core/core.git vendor/i
 ```
 wget -k -l 10 -p -E -nc https://www.lg.com/uk/tvs/lg-oled77zx9la --no-check-certificate
 ```
+
+
+## Docker
+#### Удаляем базу данных на докере
+```
+docker-compose up --force-recreate db
+```
