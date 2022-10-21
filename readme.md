@@ -74,6 +74,11 @@ git diff [--options] <commit> <commit> [--] [<path>...]
 git clone --recurse-submodules -j8 git@bitbucket.org:ipol-core/core.git vendor/ipol/Core
 ```
 
+#### Меняем удаленный репозиторий
+```
+git remote set-url origin <remote-url>
+```
+
 ## WGET
 #### Копируем файлы с SSL сертификатом
 ```
