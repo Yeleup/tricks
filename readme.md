@@ -91,3 +91,8 @@ wget -k -l 10 -p -E -nc https://www.lg.com/uk/tvs/lg-oled77zx9la --no-check-cert
 ```
 docker-compose up --force-recreate db
 ```
+
+#### Пересоздаем только указанный контейнер
+```
+docker-compose up -d --no-deps --build <container_name>
+```
